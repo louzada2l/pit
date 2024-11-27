@@ -1,0 +1,33 @@
+.fotList ul{
+    margin-left: 20px;
+}
+
+.fotList ul a {
+    position: relative;
+    display: inline-block;
+    color: inherit;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    color: #fff;
+}
+
+.fotList ul a::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: #53A2DB;
+    content: "";
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.fotList ul a:hover::before {
+    width: 100%; 
+}
+
+.titleFot{
+    color: #53A2DB !important;
+}
+
